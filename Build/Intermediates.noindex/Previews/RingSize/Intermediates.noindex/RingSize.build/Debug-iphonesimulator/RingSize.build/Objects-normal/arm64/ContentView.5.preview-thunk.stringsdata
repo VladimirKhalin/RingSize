@@ -1,0 +1,32 @@
+{
+  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.5.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Поместите кольцо на круг"
+      },
+      {
+        "comment": "",
+        "key": "Узнайте размер кольца"
+      },
+      {
+        "comment": "",
+        "key": "Используйте ползунок, чтобы выбрать размер"
+      },
+      {
+        "comment": "",
+        "key": "Тонкая настройка"
+      },
+      {
+        "comment": "",
+        "key": "-"
+      },
+      {
+        "comment": "",
+        "key": "+"
+      }
+    ]
+  },
+  "version": 1
+}

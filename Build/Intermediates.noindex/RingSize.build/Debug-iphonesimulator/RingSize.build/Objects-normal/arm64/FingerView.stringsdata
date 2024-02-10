@@ -1,0 +1,20 @@
+{
+  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/FingerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Определите размер \n кольца по ширине пальца"
+      },
+      {
+        "comment": "",
+        "key": "Поместите палец и отрегулируйте \n  ползунок по его размеру"
+      },
+      {
+        "comment": "",
+        "key": "Получить размер"
+      }
+    ]
+  },
+  "version": 1
+}

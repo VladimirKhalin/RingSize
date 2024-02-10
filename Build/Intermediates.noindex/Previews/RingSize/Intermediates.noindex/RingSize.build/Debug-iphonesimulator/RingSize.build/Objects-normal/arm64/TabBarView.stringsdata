@@ -1,0 +1,20 @@
+{
+  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/TabBar/TabBarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Измеритель кольца"
+      },
+      {
+        "comment": "",
+        "key": "Измеритель пальца"
+      },
+      {
+        "comment": "",
+        "key": "Калькулятор"
+      }
+    ]
+  },
+  "version": 1
+}

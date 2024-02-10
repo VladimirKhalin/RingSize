@@ -1,0 +1,20 @@
+{
+  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Измеритель кольца"
+      },
+      {
+        "comment": "",
+        "key": "Измеритель пальца"
+      },
+      {
+        "comment": "",
+        "key": "Калькулятор"
+      }
+    ]
+  },
+  "version": 1
+}

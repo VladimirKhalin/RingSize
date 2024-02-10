@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121BF88D2B777DF400EAEC0B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF88C2B777DF400EAEC0B /* TabBarView.swift */; };
+		121BF88F2B7792EC00EAEC0B /* ModifierTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF88E2B7792EC00EAEC0B /* ModifierTools.swift */; };
+		121BF8922B7796F600EAEC0B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8912B7796F600EAEC0B /* SettingView.swift */; };
+		121BF8942B7799A600EAEC0B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8932B7799A600EAEC0B /* HistoryView.swift */; };
+		121BF8962B7799C900EAEC0B /* InstructionViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8952B7799C900EAEC0B /* InstructionViw.swift */; };
+		121BF8982B779D2500EAEC0B /* FingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8972B779D2500EAEC0B /* FingerView.swift */; };
+		121BF89B2B77AAAA00EAEC0B /* SliderVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */; };
 		1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9A2B7657D400633F08 /* RingSizeApp.swift */; };
 		1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9C2B7657D400633F08 /* ContentView.swift */; };
 		1223CB9F2B7657D700633F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CB9E2B7657D700633F08 /* Assets.xcassets */; };
 		1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CBA12B7657D700633F08 /* Preview Assets.xcassets */; };
+		1223CBAD2B7695C100633F08 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CBAC2B7695C100633F08 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121BF88C2B777DF400EAEC0B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		121BF88E2B7792EC00EAEC0B /* ModifierTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierTools.swift; sourceTree = "<group>"; };
+		121BF8912B7796F600EAEC0B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		121BF8932B7799A600EAEC0B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		121BF8952B7799C900EAEC0B /* InstructionViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViw.swift; sourceTree = "<group>"; };
+		121BF8972B779D2500EAEC0B /* FingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerView.swift; sourceTree = "<group>"; };
+		121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVerticalView.swift; sourceTree = "<group>"; };
 		1223CB972B7657D400633F08 /* RingSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223CB9A2B7657D400633F08 /* RingSizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSizeApp.swift; sourceTree = "<group>"; };
 		1223CB9C2B7657D400633F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1223CB9E2B7657D700633F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1223CBA12B7657D700633F08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1223CBAC2B7695C100633F08 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121BF8882B777D7500EAEC0B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1223CB9A2B7657D400633F08 /* RingSizeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		121BF8892B777D8C00EAEC0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1223CB9C2B7657D400633F08 /* ContentView.swift */,
+				121BF8972B779D2500EAEC0B /* FingerView.swift */,
+				121BF8932B7799A600EAEC0B /* HistoryView.swift */,
+				121BF8952B7799C900EAEC0B /* InstructionViw.swift */,
+				121BF8912B7796F600EAEC0B /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		121BF88A2B777D9800EAEC0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1223CBAC2B7695C100633F08 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		121BF88B2B777DC800EAEC0B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				121BF88C2B777DF400EAEC0B /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		121BF8902B77954500EAEC0B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				121BF88E2B7792EC00EAEC0B /* ModifierTools.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		121BF8992B77AA8300EAEC0B /* ViewElement */ = {
+			isa = PBXGroup;
+			children = (
+				121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */,
+			);
+			path = ViewElement;
+			sourceTree = "<group>";
+		};
 		1223CB8E2B7657D400633F08 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +119,13 @@
 		1223CB992B7657D400633F08 /* RingSize */ = {
 			isa = PBXGroup;
 			children = (
-				1223CB9A2B7657D400633F08 /* RingSizeApp.swift */,
-				1223CB9C2B7657D400633F08 /* ContentView.swift */,
-				1223CB9E2B7657D700633F08 /* Assets.xcassets */,
+				121BF8992B77AA8300EAEC0B /* ViewElement */,
+				121BF88B2B777DC800EAEC0B /* TabBar */,
+				121BF8882B777D7500EAEC0B /* App */,
+				121BF8892B777D8C00EAEC0B /* View */,
+				121BF88A2B777D9800EAEC0B /* Extension */,
 				1223CBA02B7657D700633F08 /* Preview Content */,
+				121BF8902B77954500EAEC0B /* Modifiers */,
 			);
 			path = RingSize;
 			sourceTree = "<group>";
@@ -62,6 +133,7 @@
 		1223CBA02B7657D700633F08 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1223CB9E2B7657D700633F08 /* Assets.xcassets */,
 				1223CBA12B7657D700633F08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BF8942B7799A600EAEC0B /* HistoryView.swift in Sources */,
 				1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */,
 				1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */,
+				121BF88F2B7792EC00EAEC0B /* ModifierTools.swift in Sources */,
+				121BF8922B7796F600EAEC0B /* SettingView.swift in Sources */,
+				121BF89B2B77AAAA00EAEC0B /* SliderVerticalView.swift in Sources */,
+				121BF88D2B777DF400EAEC0B /* TabBarView.swift in Sources */,
+				1223CBAD2B7695C100633F08 /* Extension.swift in Sources */,
+				121BF8962B7799C900EAEC0B /* InstructionViw.swift in Sources */,
+				121BF8982B779D2500EAEC0B /* FingerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +386,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

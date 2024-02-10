@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSize-master.dia",
+    "emit-module-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSize-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSize-master-emit-module.dia",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSize-master.swiftdeps"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/App/RingSizeApp.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/RingSizeApp~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/Extension/Extension.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/Extension~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/Modifiers/ModifierTools.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ModifierTools~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/TabBar/TabBarView.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/TabBarView~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/ContentView.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/FingerView.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/FingerView~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/HistoryView.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/HistoryView~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/InstructionViw.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/InstructionViw~partial.swiftmodule"
+  },
+  "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/SettingView.swift" : {
+    "const-values" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.swiftconstvalues",
+    "dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.d",
+    "diagnostics" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.dia",
+    "index-unit-output-path" : "/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.o",
+    "llvm-bc" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.bc",
+    "object" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.o",
+    "swift-dependencies" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView.swiftdeps",
+    "swiftmodule" : "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/Build/Intermediates.noindex/Previews/RingSize/Intermediates.noindex/RingSize.build/Debug-iphonesimulator/RingSize.build/Objects-normal/arm64/SettingView~partial.swiftmodule"
+  }
+}
