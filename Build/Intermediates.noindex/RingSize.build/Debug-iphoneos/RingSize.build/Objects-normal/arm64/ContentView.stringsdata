@@ -1,10 +1,10 @@
 {
-  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/ContentView.swift",
+  "source": "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/ContentView.swift",
   "tables": {
     "Localizable": [
       {
         "comment": "",
-        "key": "Поместите кольцо на круг"
+        "key": "Поместите кольцо \n на круг"
       },
       {
         "comment": "",

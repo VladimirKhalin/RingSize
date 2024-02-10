@@ -43,7 +43,7 @@ struct ContentView: View {
                                     .modifier(CircleModifier())
                             }
                         }
-                        .tint(Color.black)
+                        .tint(colorScheme == .dark ? Color .white : Color .black)
                         .padding()
                         
                         Spacer()

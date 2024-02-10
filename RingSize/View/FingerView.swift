@@ -42,19 +42,23 @@ struct FingerView: View {
                                     .modifier(CircleModifier())
                             }
                         }
-                        .tint(Color.black)
+                        .tint(colorScheme == .dark ? Color .white : Color .black)
                         .padding()
                         
-                        VStack(spacing: 30){
+                        VStack(spacing: 14){
                             Text("Определите размер \n кольца по ширине пальца")
+                                .lineLimit(2)
                                 .multilineTextAlignment(.center)
                                 .font(.title2)
                                 .fontWeight(.bold)
+                                .frame(width: width, height: 60)
                             
                             
                             Text("Поместите палец и отрегулируйте \n  ползунок по его размеру")
+                                .lineLimit(2)
                                 .multilineTextAlignment(.center)
                                 .font(.footnote)
+                                .frame(width: width, height: 50)
                             
                             Button {
                                 countRingSize()
@@ -96,6 +100,7 @@ struct FingerView: View {
                                 
                                 Text(visibleSize)
                                     .padding(.top, 250)
+                                    .foregroundColor(.black)
                                     
                                 
                             }

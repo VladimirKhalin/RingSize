@@ -47,7 +47,7 @@ extension ContentView {
                                     .modifier(CircleModifier())
                             }
                         }
-                        .tint(Color.black)
+                        .tint(colorScheme == .dark ? Color .white : Color .black)
                         .padding()
                         
                         Spacer()
@@ -79,7 +79,7 @@ extension ContentView {
                             
                             ZStack {
                                 Circle()
-                                    .foregroundColor(.orange)
+                                    .foregroundColor(.yellow)
                                     .frame(width: pixelSize, height: pixelSize)
                                 HStack {
                                     Image(systemName: __designTimeString("#5296.[1].[7].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[3].arg[0].value.[3].arg[0].value.[1].arg[0].value.[0].arg[0].value", fallback: "arrow.left"))
@@ -147,7 +147,7 @@ extension ContentView {
                                 HStack{
                                     Rectangle()
                                         .frame(width: __designTimeInteger("#5296.[1].[7].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[5].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].modifier[0].arg[0].value", fallback: 4), height: __designTimeInteger("#5296.[1].[7].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[5].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].modifier[0].arg[1].value", fallback: 40))
-                                        .foregroundColor(.orange)
+                                        .foregroundColor(.yellow)
                                         .position(rectPosition)
                                         .gesture(
                                             DragGesture(minimumDistance: __designTimeInteger("#5296.[1].[7].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[5].arg[0].value.[1].arg[0].value.[1].arg[0].value.[0].modifier[3].arg[0].value.arg[0].value", fallback: 2))
