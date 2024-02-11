@@ -123,9 +123,6 @@ struct ContentView: View {
                         .background(colorScheme == .dark ? Color .white : Color .black)
                         .cornerRadius(5)
                         
-                        
-                        
-                        
                         VStack {
                             Text("Используйте ползунок, чтобы выбрать размер")
                                 .font(.footnote)
@@ -200,9 +197,6 @@ struct ContentView: View {
                         .frame(width: width * 0.7)
                         
                         Spacer()
-                        
-                        Text("\(width) : \(height) ")
-                        
                         
                         Divider()
                     }

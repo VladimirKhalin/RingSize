@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		17GGHaXqYrd+iYBGN8++tDgYSxM=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		w63sTf6NkJC8/HXhLsgF9U3YdO4=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		tumcV064g7ChJkERVvQzbqSqLTI=
+		M0jI4Rd0Jq4sQmF+Z6Vp9/ijh1g=
 		</data>
 		<key>Frameworks/RiveRuntime.framework/Info.plist</key>
 		<data>
@@ -26,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MlctO2vJzwBjR08chXdIKHaFPfU=
+		iJY/NcQMvnE39DztTMc7u0vVyv8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -43,11 +51,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZHtnlW665w3j0p5rhkf9Y94+htoY3zRsYIaHQzjV6KM=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qTlcNIJ9B6WOZzeSbO5U5IV4KJaGYaViVYlzXKvZgN0=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItthPN8A6WgZMhsvJZVV5emmX84+xbTMIBq+Kr0HjAI=
+			brCpq/5JYZj+W4Sw1S5P0u+O0s8+q9XgYiNaSY4ew7c=
 			</data>
 		</dict>
 		<key>Frameworks/RiveRuntime.framework/Info.plist</key>
