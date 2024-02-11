@@ -18,6 +18,8 @@
 		121BF89F2B78A75A00EAEC0B /* CountrySetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */; };
 		121BF8A12B78B44700EAEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121BF8A02B78B44700EAEC0B /* Assets.xcassets */; };
 		121BF8A32B78C36000EAEC0B /* CountryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8A22B78C36000EAEC0B /* CountryModalView.swift */; };
+		121BF8A62B79167500EAEC0B /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 121BF8A52B79167500EAEC0B /* RiveRuntime */; };
+		121BF8A92B79170900EAEC0B /* ringsize.riv in Resources */ = {isa = PBXBuildFile; fileRef = 121BF8A82B79170800EAEC0B /* ringsize.riv */; };
 		1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9A2B7657D400633F08 /* RingSizeApp.swift */; };
 		1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9C2B7657D400633F08 /* ContentView.swift */; };
 		1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CBA12B7657D700633F08 /* Preview Assets.xcassets */; };
@@ -36,6 +38,7 @@
 		121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySetView.swift; sourceTree = "<group>"; };
 		121BF8A02B78B44700EAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121BF8A22B78C36000EAEC0B /* CountryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModalView.swift; sourceTree = "<group>"; };
+		121BF8A82B79170800EAEC0B /* ringsize.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = ringsize.riv; sourceTree = "<group>"; };
 		1223CB972B7657D400633F08 /* RingSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223CB9A2B7657D400633F08 /* RingSizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSizeApp.swift; sourceTree = "<group>"; };
 		1223CB9C2B7657D400633F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BF8A62B79167500EAEC0B /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +113,14 @@
 			path = ViewElement;
 			sourceTree = "<group>";
 		};
+		121BF8A72B7916E500EAEC0B /* Rive */ = {
+			isa = PBXGroup;
+			children = (
+				121BF8A82B79170800EAEC0B /* ringsize.riv */,
+			);
+			path = Rive;
+			sourceTree = "<group>";
+		};
 		1223CB8E2B7657D400633F08 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		1223CB992B7657D400633F08 /* RingSize */ = {
 			isa = PBXGroup;
 			children = (
+				121BF8A72B7916E500EAEC0B /* Rive */,
 				121BF8992B77AA8300EAEC0B /* ViewElement */,
 				121BF88B2B777DC800EAEC0B /* TabBar */,
 				121BF8882B777D7500EAEC0B /* App */,
@@ -164,6 +177,9 @@
 			dependencies = (
 			);
 			name = RingSize;
+			packageProductDependencies = (
+				121BF8A52B79167500EAEC0B /* RiveRuntime */,
+			);
 			productName = RingSize;
 			productReference = 1223CB972B7657D400633F08 /* RingSize.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 1223CB8E2B7657D400633F08;
+			packageReferences = (
+				121BF8A42B79167500EAEC0B /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 1223CB982B7657D400633F08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BF8A92B79170900EAEC0B /* ringsize.riv in Resources */,
 				121BF8A12B78B44700EAEC0B /* Assets.xcassets in Resources */,
 				1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */,
 			);
@@ -434,6 +454,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		121BF8A42B79167500EAEC0B /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		121BF8A52B79167500EAEC0B /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 121BF8A42B79167500EAEC0B /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1223CB8F2B7657D400633F08 /* Project object */;
 }

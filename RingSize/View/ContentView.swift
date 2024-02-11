@@ -201,6 +201,9 @@ struct ContentView: View {
                         
                         Spacer()
                         
+                        Text("\(width) : \(height) ")
+                        
+                        
                         Divider()
                     }
                     .padding(.horizontal, 16)

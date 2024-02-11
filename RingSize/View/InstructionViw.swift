@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import RiveRuntime
 
 struct InstructionViw: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
@@ -18,7 +19,7 @@ struct InstructionViw: View {
             ZStack {
                 NavigationStack {
                     VStack {
-                        
+                        RiveViewModel(fileName: "ringsize").view()
                     }
                     .toolbarTitleDisplayMode(.inline)
                     .navigationBarBackButtonHidden(true)

@@ -10,7 +10,7 @@ import SwiftUI
 
 extension ContentView {
     @_dynamicReplacement(for: countRingSize()) private func __preview__countRingSize() {
-        #sourceLocation(file: "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/ContentView.swift", line: 217)
+        #sourceLocation(file: "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/ContentView.swift", line: 220)
         ringSize = Double(pixelSize) * onePixel
         ringSize = ringSize.round(nearest: __designTimeFloat("#5296.[1].[8].[1].[0]", fallback: 0.5))
         visibleSize = String(ringSize)
@@ -204,6 +204,9 @@ extension ContentView {
                         .frame(width: width * __designTimeFloat("#5296.[1].[7].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[6].modifier[1].arg[0].value.[0]", fallback: 0.7))
                         
                         Spacer()
+                        
+                        Text("\(width) : \(height) ")
+                        
                         
                         Divider()
                     }

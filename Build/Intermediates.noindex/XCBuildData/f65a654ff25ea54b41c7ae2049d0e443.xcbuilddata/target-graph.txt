@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'RingSize' in project 'RingSize'
+➜ Explicit dependency on target 'RiveRuntime' in project 'RiveRuntime'
+Target 'RiveRuntime' in project 'RiveRuntime' (no dependencies)

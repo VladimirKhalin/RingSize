@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		tumcV064g7ChJkERVvQzbqSqLTI=
+		</data>
+		<key>Frameworks/RiveRuntime.framework/Info.plist</key>
+		<data>
+		SFWzl6c1B1opDWUOzHz95dITCo4=
+		</data>
+		<key>Frameworks/RiveRuntime.framework/RiveRuntime</key>
+		<data>
+		fNpPJQHpSh35L//7pLe9VTGtv5Q=
+		</data>
+		<key>Frameworks/RiveRuntime.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GzVKS6czNerohTRiThTZE6qnjOk=
+		</data>
+		<key>Frameworks/RiveRuntime.framework/rating_animation.riv</key>
+		<data>
+		dF/tTYV0+TnULBIrX6lT/hKgN1w=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		MlctO2vJzwBjR08chXdIKHaFPfU=
@@ -16,14 +36,60 @@
 		<data>
 		GEXO3Qr18k+pv603EUh0fyGCmRQ=
 		</data>
+		<key>ringsize.riv</key>
+		<data>
+		YWAGIFerT2w1HLCLavhmoqeWp6s=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ItthPN8A6WgZMhsvJZVV5emmX84+xbTMIBq+Kr0HjAI=
+			</data>
+		</dict>
+		<key>Frameworks/RiveRuntime.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mTRQ18lSszMdvJ+hlTKkkkS8qVh8+WK0xA9EwBC0+IQ=
+			</data>
+		</dict>
+		<key>Frameworks/RiveRuntime.framework/RiveRuntime</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SEKqHY7VFWKL93DjAga0wf1WOmpYYcG/hCI/G7K9nYc=
+			</data>
+		</dict>
+		<key>Frameworks/RiveRuntime.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lMRKJ+tTIamg9y5g+F0aDkWfxG3V6aAa2qf89EhQnoo=
+			</data>
+		</dict>
+		<key>Frameworks/RiveRuntime.framework/rating_animation.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KoXXFCnmlCRBWlUvree1kHJMTAOiQm1f2syUncElcPA=
+			</data>
+		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			lUUOW3fhE/OYakp/9/G5lnJLdNQ7JA0xiUsLuWUzIKE=
+			</data>
+		</dict>
+		<key>ringsize.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6x9HkGUpFqdsG2bMytB6NvEBtH9yDLUsUcOoH6wp4V8=
 			</data>
 		</dict>
 	</dict>

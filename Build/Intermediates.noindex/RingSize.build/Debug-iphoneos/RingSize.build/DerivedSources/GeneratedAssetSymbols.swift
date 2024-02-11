@@ -31,6 +31,12 @@ extension DeveloperToolsSupport.ColorResource {
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension DeveloperToolsSupport.ImageResource {
 
+    /// The "RingBlack" asset catalog image resource.
+    static let ringBlack = DeveloperToolsSupport.ImageResource(name: "RingBlack", bundle: resourceBundle)
+
+    /// The "RingWhite" asset catalog image resource.
+    static let ringWhite = DeveloperToolsSupport.ImageResource(name: "RingWhite", bundle: resourceBundle)
+
 }
 
 // MARK: - Color Symbol Extensions -
@@ -70,6 +76,24 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 @available(macCatalyst, unavailable)
 extension AppKit.NSImage {
 
+    /// The "RingBlack" asset catalog image.
+    static var ringBlack: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .ringBlack)
+#else
+        .init()
+#endif
+    }
+
+    /// The "RingWhite" asset catalog image.
+    static var ringWhite: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .ringWhite)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -77,6 +101,24 @@ extension AppKit.NSImage {
 @available(iOS 17.0, tvOS 17.0, *)
 @available(watchOS, unavailable)
 extension UIKit.UIImage {
+
+    /// The "RingBlack" asset catalog image.
+    static var ringBlack: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .ringBlack)
+#else
+        .init()
+#endif
+    }
+
+    /// The "RingWhite" asset catalog image.
+    static var ringWhite: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .ringWhite)
+#else
+        .init()
+#endif
+    }
 
 }
 #endif
@@ -178,6 +220,26 @@ extension DeveloperToolsSupport.ImageResource {
     }
 
 }
+
+#if canImport(AppKit)
+@available(macOS 14.0, *)
+@available(macCatalyst, unavailable)
+extension AppKit.NSImage {
+
+    private convenience init?(thinnableResource: DeveloperToolsSupport.ImageResource?) {
+#if !targetEnvironment(macCatalyst)
+        if let resource = thinnableResource {
+            self.init(resource: resource)
+        } else {
+            return nil
+        }
+#else
+        return nil
+#endif
+    }
+
+}
+#endif
 
 #if canImport(UIKit)
 @available(iOS 17.0, tvOS 17.0, *)

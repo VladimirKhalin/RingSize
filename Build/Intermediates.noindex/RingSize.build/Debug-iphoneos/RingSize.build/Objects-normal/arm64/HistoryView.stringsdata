@@ -4,7 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "History"
+        "key": "Результаты не сохранены"
+      },
+      {
+        "comment": "",
+        "key": "История"
       }
     ]
   },
