@@ -34,6 +34,9 @@ extension DeveloperToolsSupport.ImageResource {
     /// The "RingBlack" asset catalog image resource.
     static let ringBlack = DeveloperToolsSupport.ImageResource(name: "RingBlack", bundle: resourceBundle)
 
+    /// The "RingPresent" asset catalog image resource.
+    static let ringPresent = DeveloperToolsSupport.ImageResource(name: "RingPresent", bundle: resourceBundle)
+
     /// The "RingWhite" asset catalog image resource.
     static let ringWhite = DeveloperToolsSupport.ImageResource(name: "RingWhite", bundle: resourceBundle)
 
@@ -85,6 +88,15 @@ extension AppKit.NSImage {
 #endif
     }
 
+    /// The "RingPresent" asset catalog image.
+    static var ringPresent: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .ringPresent)
+#else
+        .init()
+#endif
+    }
+
     /// The "RingWhite" asset catalog image.
     static var ringWhite: AppKit.NSImage {
 #if !targetEnvironment(macCatalyst)
@@ -106,6 +118,15 @@ extension UIKit.UIImage {
     static var ringBlack: UIKit.UIImage {
 #if !os(watchOS)
         .init(resource: .ringBlack)
+#else
+        .init()
+#endif
+    }
+
+    /// The "RingPresent" asset catalog image.
+    static var ringPresent: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .ringPresent)
 #else
         .init()
 #endif

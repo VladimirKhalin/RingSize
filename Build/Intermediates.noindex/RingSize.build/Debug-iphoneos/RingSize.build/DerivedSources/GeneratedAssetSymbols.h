@@ -9,6 +9,9 @@
 /// The "RingBlack" asset catalog image resource.
 static NSString * const ACImageNameRingBlack AC_SWIFT_PRIVATE = @"RingBlack";
 
+/// The "RingPresent" asset catalog image resource.
+static NSString * const ACImageNameRingPresent AC_SWIFT_PRIVATE = @"RingPresent";
+
 /// The "RingWhite" asset catalog image resource.
 static NSString * const ACImageNameRingWhite AC_SWIFT_PRIVATE = @"RingWhite";
 

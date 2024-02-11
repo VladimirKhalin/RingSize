@@ -12,7 +12,8 @@ struct RingSizeApp: App {
     var body: some Scene {
         WindowGroup {
           //  ContentView()
-            TabBarView()
+          //  TabBarView()
+            SplashView()
         }
     }
 }
