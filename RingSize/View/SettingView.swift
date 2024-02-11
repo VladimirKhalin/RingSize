@@ -11,13 +11,15 @@ struct SettingView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @Environment(\.colorScheme) var colorScheme
     
+    @State var countryName = "РОССИЯ"
+    
     var body: some View {
         NavigationStack {
             VStack {
-                NavigationLink(destination: CountrySetView()) {
+                NavigationLink(destination: CountryModalView( countryName: $countryName)) {
                     VStack {
                         HStack {
-                            Text("Выберите страну: (Россия)")
+                            Text("Выберите страну: (\(countryName))")
                             Spacer()
                             Image(systemName: "chevron.right")
                         }

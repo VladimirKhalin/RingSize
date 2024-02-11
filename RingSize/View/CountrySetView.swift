@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CountrySetView: View {
     var body: some View {
-        Text("Test View")
+        Text("")
     }
 }
 

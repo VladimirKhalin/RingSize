@@ -47,7 +47,7 @@ struct TabBarView: View {
             
             
         }
-        .tint(.orange)
+        .tint(.yellow)
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }

@@ -34,7 +34,7 @@ extension HistoryView {
             NavigationStack {
             ZStack {
                 
-                Image(colorScheme == .dark ? __designTimeString("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.then", fallback: "RingWhite") : __designTimeString("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.else", fallback: "R"))
+                Image(colorScheme == .dark ? __designTimeString("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.then", fallback: "RingWhite") : __designTimeString("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.else", fallback: "RingBlack"))
                     .resizable()
                     .scaledToFit()
                     .frame(width: __designTimeInteger("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[2].arg[0].value", fallback: 300), height: __designTimeInteger("#76136.[1].[2].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].modifier[2].arg[1].value", fallback: 300))

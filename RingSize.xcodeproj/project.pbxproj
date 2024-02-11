@@ -17,6 +17,7 @@
 		121BF89D2B78A51E00EAEC0B /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */; };
 		121BF89F2B78A75A00EAEC0B /* CountrySetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */; };
 		121BF8A12B78B44700EAEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121BF8A02B78B44700EAEC0B /* Assets.xcassets */; };
+		121BF8A32B78C36000EAEC0B /* CountryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8A22B78C36000EAEC0B /* CountryModalView.swift */; };
 		1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9A2B7657D400633F08 /* RingSizeApp.swift */; };
 		1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9C2B7657D400633F08 /* ContentView.swift */; };
 		1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CBA12B7657D700633F08 /* Preview Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySetView.swift; sourceTree = "<group>"; };
 		121BF8A02B78B44700EAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		121BF8A22B78C36000EAEC0B /* CountryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModalView.swift; sourceTree = "<group>"; };
 		1223CB972B7657D400633F08 /* RingSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223CB9A2B7657D400633F08 /* RingSizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSizeApp.swift; sourceTree = "<group>"; };
 		1223CB9C2B7657D400633F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				121BF8912B7796F600EAEC0B /* SettingView.swift */,
 				121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */,
 				121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */,
+				121BF8A22B78C36000EAEC0B /* CountryModalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				121BF88D2B777DF400EAEC0B /* TabBarView.swift in Sources */,
 				1223CBAD2B7695C100633F08 /* Extension.swift in Sources */,
 				121BF8962B7799C900EAEC0B /* InstructionViw.swift in Sources */,
+				121BF8A32B78C36000EAEC0B /* CountryModalView.swift in Sources */,
 				121BF8982B779D2500EAEC0B /* FingerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
