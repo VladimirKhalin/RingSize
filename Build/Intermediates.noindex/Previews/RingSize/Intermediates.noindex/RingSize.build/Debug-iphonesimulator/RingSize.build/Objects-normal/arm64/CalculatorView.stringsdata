@@ -4,7 +4,15 @@
     "Localizable": [
       {
         "comment": "",
-        "key": ""
+        "key": "Из: %@"
+      },
+      {
+        "comment": "",
+        "key": "В: %@"
+      },
+      {
+        "comment": "",
+        "key": "Калькулятор"
       }
     ]
   },

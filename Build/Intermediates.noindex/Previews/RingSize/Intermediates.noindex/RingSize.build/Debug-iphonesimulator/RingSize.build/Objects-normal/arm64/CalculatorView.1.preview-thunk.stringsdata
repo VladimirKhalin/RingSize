@@ -4,7 +4,19 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Hello, World!"
+        "key": "Из: %@"
+      },
+      {
+        "comment": "",
+        "key": "Ваш размер: %@"
+      },
+      {
+        "comment": "",
+        "key": "В: %@"
+      },
+      {
+        "comment": "",
+        "key": "Калькулятор"
       }
     ]
   },
