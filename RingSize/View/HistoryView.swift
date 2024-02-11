@@ -26,7 +26,6 @@ struct HistoryView: View {
                     .frame(width: 300, height: 300)
                     .opacity(0.05)
                 
-                
                     VStack {
                         
                         Text("Результаты не сохранены")

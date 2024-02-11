@@ -21,7 +21,6 @@
 		121BF8A62B79167500EAEC0B /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 121BF8A52B79167500EAEC0B /* RiveRuntime */; };
 		121BF8A92B79170900EAEC0B /* ringsize.riv in Resources */ = {isa = PBXBuildFile; fileRef = 121BF8A82B79170800EAEC0B /* ringsize.riv */; };
 		121BF8AB2B79204900EAEC0B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8AA2B79204900EAEC0B /* SplashView.swift */; };
-		121BF8AD2B7922AE00EAEC0B /* ArchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8AC2B7922AE00EAEC0B /* ArchView.swift */; };
 		1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9A2B7657D400633F08 /* RingSizeApp.swift */; };
 		1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9C2B7657D400633F08 /* ContentView.swift */; };
 		1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CBA12B7657D700633F08 /* Preview Assets.xcassets */; };
@@ -42,7 +41,6 @@
 		121BF8A22B78C36000EAEC0B /* CountryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModalView.swift; sourceTree = "<group>"; };
 		121BF8A82B79170800EAEC0B /* ringsize.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = ringsize.riv; sourceTree = "<group>"; };
 		121BF8AA2B79204900EAEC0B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		121BF8AC2B7922AE00EAEC0B /* ArchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchView.swift; sourceTree = "<group>"; };
 		1223CB972B7657D400633F08 /* RingSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223CB9A2B7657D400633F08 /* RingSizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSizeApp.swift; sourceTree = "<group>"; };
 		1223CB9C2B7657D400633F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */,
-				121BF8AC2B7922AE00EAEC0B /* ArchView.swift */,
 			);
 			path = ViewElement;
 			sourceTree = "<group>";
@@ -256,7 +253,6 @@
 				1223CBAD2B7695C100633F08 /* Extension.swift in Sources */,
 				121BF8962B7799C900EAEC0B /* InstructionViw.swift in Sources */,
 				121BF8A32B78C36000EAEC0B /* CountryModalView.swift in Sources */,
-				121BF8AD2B7922AE00EAEC0B /* ArchView.swift in Sources */,
 				121BF8982B779D2500EAEC0B /* FingerView.swift in Sources */,
 				121BF8AB2B79204900EAEC0B /* SplashView.swift in Sources */,
 			);

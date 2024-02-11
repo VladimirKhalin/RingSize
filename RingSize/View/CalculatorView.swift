@@ -28,7 +28,6 @@ struct CalculatorView: View {
                     .frame(width: 300, height: 300)
                     .opacity(0.05)
                 
-                
                     VStack {
                         NavigationLink(destination: CountryModalView( countryName: $countryNameIn)) {
                             VStack {
@@ -53,9 +52,6 @@ struct CalculatorView: View {
                                 Divider()
                             }
                         }
-                        
-                        
-                        
                         
                         NavigationLink(destination: CountryModalView( countryName: $countryNameOut)) {
                             VStack {
