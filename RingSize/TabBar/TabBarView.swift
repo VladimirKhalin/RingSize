@@ -34,7 +34,7 @@ struct TabBarView: View {
                 }
                 .tag(1)
             
-            ContentView()
+            CalculatorView()
                 .tabItem {
                     Image(systemName: "circle.dotted.and.circle")
                     Text("Калькулятор")

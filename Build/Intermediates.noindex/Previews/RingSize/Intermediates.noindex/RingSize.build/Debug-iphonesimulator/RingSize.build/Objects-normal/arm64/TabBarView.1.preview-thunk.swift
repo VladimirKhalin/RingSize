@@ -34,7 +34,7 @@ extension TabBarView {
                 }
                 .tag(__designTimeInteger("#5400.[1].[1].property.[0].[0].arg[1].value.[1].modifier[2].arg[0].value", fallback: 1))
             
-            ContentView()
+            CalculatorView()
                 .tabItem {
                     Image(systemName: __designTimeString("#5400.[1].[1].property.[0].[0].arg[1].value.[2].modifier[0].arg[0].value.[0].arg[0].value", fallback: "circle.dotted.and.circle"))
                     Text(__designTimeString("#5400.[1].[1].property.[0].[0].arg[1].value.[2].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Калькулятор"))

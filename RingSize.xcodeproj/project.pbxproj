@@ -14,9 +14,11 @@
 		121BF8962B7799C900EAEC0B /* InstructionViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8952B7799C900EAEC0B /* InstructionViw.swift */; };
 		121BF8982B779D2500EAEC0B /* FingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF8972B779D2500EAEC0B /* FingerView.swift */; };
 		121BF89B2B77AAAA00EAEC0B /* SliderVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */; };
+		121BF89D2B78A51E00EAEC0B /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */; };
+		121BF89F2B78A75A00EAEC0B /* CountrySetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */; };
+		121BF8A12B78B44700EAEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121BF8A02B78B44700EAEC0B /* Assets.xcassets */; };
 		1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9A2B7657D400633F08 /* RingSizeApp.swift */; };
 		1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CB9C2B7657D400633F08 /* ContentView.swift */; };
-		1223CB9F2B7657D700633F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CB9E2B7657D700633F08 /* Assets.xcassets */; };
 		1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223CBA12B7657D700633F08 /* Preview Assets.xcassets */; };
 		1223CBAD2B7695C100633F08 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223CBAC2B7695C100633F08 /* Extension.swift */; };
 /* End PBXBuildFile section */
@@ -29,10 +31,12 @@
 		121BF8952B7799C900EAEC0B /* InstructionViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViw.swift; sourceTree = "<group>"; };
 		121BF8972B779D2500EAEC0B /* FingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerView.swift; sourceTree = "<group>"; };
 		121BF89A2B77AAAA00EAEC0B /* SliderVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVerticalView.swift; sourceTree = "<group>"; };
+		121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySetView.swift; sourceTree = "<group>"; };
+		121BF8A02B78B44700EAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1223CB972B7657D400633F08 /* RingSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223CB9A2B7657D400633F08 /* RingSizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSizeApp.swift; sourceTree = "<group>"; };
 		1223CB9C2B7657D400633F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1223CB9E2B7657D700633F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1223CBA12B7657D700633F08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1223CBAC2B7695C100633F08 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,8 @@
 				121BF8932B7799A600EAEC0B /* HistoryView.swift */,
 				121BF8952B7799C900EAEC0B /* InstructionViw.swift */,
 				121BF8912B7796F600EAEC0B /* SettingView.swift */,
+				121BF89C2B78A51E00EAEC0B /* CalculatorView.swift */,
+				121BF89E2B78A75A00EAEC0B /* CountrySetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,8 +139,8 @@
 		1223CBA02B7657D700633F08 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1223CB9E2B7657D700633F08 /* Assets.xcassets */,
 				1223CBA12B7657D700633F08 /* Preview Assets.xcassets */,
+				121BF8A02B78B44700EAEC0B /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -197,8 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BF8A12B78B44700EAEC0B /* Assets.xcassets in Resources */,
 				1223CBA22B7657D700633F08 /* Preview Assets.xcassets in Resources */,
-				1223CB9F2B7657D700633F08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +217,11 @@
 			files = (
 				121BF8942B7799A600EAEC0B /* HistoryView.swift in Sources */,
 				1223CB9D2B7657D400633F08 /* ContentView.swift in Sources */,
+				121BF89F2B78A75A00EAEC0B /* CountrySetView.swift in Sources */,
 				1223CB9B2B7657D400633F08 /* RingSizeApp.swift in Sources */,
 				121BF88F2B7792EC00EAEC0B /* ModifierTools.swift in Sources */,
 				121BF8922B7796F600EAEC0B /* SettingView.swift in Sources */,
+				121BF89D2B78A51E00EAEC0B /* CalculatorView.swift in Sources */,
 				121BF89B2B77AAAA00EAEC0B /* SliderVerticalView.swift in Sources */,
 				121BF88D2B777DF400EAEC0B /* TabBarView.swift in Sources */,
 				1223CBAD2B7695C100633F08 /* Extension.swift in Sources */,

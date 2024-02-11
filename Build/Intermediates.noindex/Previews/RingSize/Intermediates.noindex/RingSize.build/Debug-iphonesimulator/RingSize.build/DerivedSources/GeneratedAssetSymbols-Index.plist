@@ -5,7 +5,28 @@
 	<key>colors</key>
 	<array/>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/Preview Content/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRingBlack</string>
+			<key>relativePath</key>
+			<string>./RingBlack.imageset</string>
+			<key>swiftSymbol</key>
+			<string>ringBlack</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/Preview Content/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameRingWhite</string>
+			<key>relativePath</key>
+			<string>./RingWhite.imageset</string>
+			<key>swiftSymbol</key>
+			<string>ringWhite</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

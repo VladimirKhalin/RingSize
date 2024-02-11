@@ -10,7 +10,7 @@ import SwiftUI
 
 extension FingerView {
     @_dynamicReplacement(for: countRingSize()) private func __preview__countRingSize() {
-        #sourceLocation(file: "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/FingerView.swift", line: 125)
+        #sourceLocation(file: "/Users/vladimirkhalin/Desktop/Xcode PR/Swiftbook/RingSize/RingSize/View/FingerView.swift", line: 128)
         ringSize = Double(pixelSize) * onePixel
         ringSize =  ringSize.round(nearest: __designTimeFloat("#18681.[1].[9].[1].[0]", fallback: 0.5))
         visibleSize = String(ringSize)
@@ -49,17 +49,20 @@ extension FingerView {
                         .tint(colorScheme == .dark ? Color .white : Color .black)
                         .padding()
                         
-                        VStack(spacing: __designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[0].value", fallback: 30)){
+                        VStack(spacing: __designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[0].value", fallback: 14)){
                             Text("Определите размер \n кольца по ширине пальца")
                                 .lineLimit(__designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[0].arg[0].value", fallback: 2))
                                 .multilineTextAlignment(.center)
                                 .font(.title2)
                                 .fontWeight(.bold)
+                                .frame(width: width, height: __designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[4].arg[1].value", fallback: 60))
                             
                             
                             Text("Поместите палец и отрегулируйте \n  ползунок по его размеру")
+                                .lineLimit(__designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].modifier[0].arg[0].value", fallback: 2))
                                 .multilineTextAlignment(.center)
                                 .font(.footnote)
+                                .frame(width: width, height: __designTimeInteger("#18681.[1].[8].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].modifier[3].arg[1].value", fallback: 50))
                             
                             Button {
                                 countRingSize()

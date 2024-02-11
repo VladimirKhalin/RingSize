@@ -18,7 +18,7 @@ struct CircleModifier: ViewModifier {
                 Circle()
                     .stroke(lineWidth: 1.0)
                     .frame(width: 40, height: 40)
-                    .opacity(0.2)
+                    .opacity(0.4)
             }
             
     }
